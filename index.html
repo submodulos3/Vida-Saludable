@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vida Saludable</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #fefefe);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #006d77;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header img {
+      width: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    header h1 {
+      font-size: 2.2em;
+    }
+
+    nav {
+      background-color: #83c5be;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #006d77;
+      margin-bottom: 10px;
+      font-size: 1.8em;
+      border-left: 5px solid #06d6a0;
+      padding-left: 10px;
+    }
+
+    p, li {
+      font-size: 1.1em;
+    }
+
+    .imagenes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .imagenes img {
+      width: 100%;
+      max-width: 450px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .tips {
+      background: #f1f1f1;
+      padding: 20px;
+      border-left: 5px solid #06d6a0;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background-color: #006d77;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.6em;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- LOGO CARGADO DESDE INTERNET -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/First_aid.png" alt="Logo Salud">
+    <h1>Vida Saludable</h1>
+    <p>Tu guía para cuidar cuerpo y mente</p>
+  </header>
+
+  <nav>
+    <a href="#alimentacion">Alimentación</a>
+    <a href="#ejercicio">Ejercicio</a>
+    <a href="#mental">Salud Mental</a>
+    <a href="#video">Video</a>
+  </nav>
+
+  <section id="alimentacion">
+    <h2>Alimentación Balanceada</h2>
+    <p>Una buena alimentación es clave para tu bienestar. Come frutas, verduras, cereales integrales, proteínas y evita el exceso de azúcares y procesados.</p>
+    <div class="imagenes">
+      <img src="https://concienciasaludable.uchile.cl/wp-content/uploads/2023/10/pexels-vanessa-loring-5966434-scaled-1-1536x1024.jpg" alt="Comida saludable">
+      <img src="https://editorialtelevisa.brightspotcdn.com/dims4/default/c6495f3/2147483647/strip/true/crop/1194x672+3+0/resize/2000x1126!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fwp-content%2Fuploads%2F2020%2F11%2Fjugos-de-verduras.jpg" alt="Jugos naturales">
+    </div>
+  </section>
+
+  <section id="ejercicio">
+    <h2>Ejercicio Regular</h2>
+    <p>Muévete al menos 30 minutos al día. El ejercicio mejora tu estado de ánimo, regula el peso y fortalece tu cuerpo.</p>
+    <div class="tips">
+      <ul>
+        <li>Camina o corre 3-5 veces por semana.</li>
+        <li>Haz ejercicios de fuerza 2 veces por semana.</li>
+        <li>Incluye estiramientos para mantener la flexibilidad.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="mental">
+    <h2>Salud Mental</h2>
+    <p>No descuides tu mente. Practica la gratitud, duerme bien y busca apoyo cuando lo necesites.</p>
+    <div class="tips">
+      <ul>
+        <li>Medita diariamente o realiza respiraciones profundas.</li>
+        <li>Duerme al menos 7-8 horas por noche.</li>
+        <li>Habla con alguien si estás pasando por un momento difícil.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="video">
+   
+   
+    
+    <section id="video">
+  <h2>Video Recomendado</h2>
+  <p>Mira este video para aprender más sobre hábitos saludables que puedes empezar hoy mismo.</p>
+  <iframe src="https://www.youtube.com/embed/YFGEoFwD1x8" allowfullscreen></iframe>
+</section>
+
+  <footer>
+    © 2025 Vida Saludable | Página creada en TrebEdit | Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
